@@ -1,0 +1,207 @@
+body, h1, h2, h3, ul, li {
+    margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 0;
+	
+}
+
+p.bl{
+  font-weight: bold;
+  text-align: left;
+}
+
+p.clear {
+	clear: left;
+}
+
+.logout-button {
+    display: inline-block;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	
+}
+
+img {
+  float: left;
+  display: block;  
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+.btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 9px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+
+.container {	
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.Item-container {	
+    display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 25%;
+    color: black; 
+    padding: 20px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+	background-color:#00BFFF;
+	opacity: 0.8;
+	bottom: 0px;
+	height: auto;
+}
+
+table, th, td {
+  border:2px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between cards as needed */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+
+.flip-card {
+background-color: transparent;
+  width: 200px;
+  height: 200px;  
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-front img {
+  max-width: 200px;
+  max-height: auto;
+ }
+ 
+.flip-card-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateY(180deg);
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 150px;
+}
+
+.cart-item {
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+	
+    bottom: 0;
+    width: 100%;
+	font-size: 10px;
+}
+
+

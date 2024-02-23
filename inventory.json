@@ -1,0 +1,150 @@
+{
+  "products": {
+    "product": [
+      {
+        "Name": "Chocolate Pie Pudding Mix",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 9.99,
+        "Image": "Pics\\Baking\\chocolatepuddingmix.webp",
+        "Quantity": 15
+      },
+      {
+        "Name": "Buleberry Pie Filling",
+        "Category": "Baking",
+		"Subcategory":".",		
+        "price": 3.33,
+        "Image": "Pics\\Baking\\buleberryfilling.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Pie Crusts",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 7.36,
+        "Image": "Pics\\Baking\\crusts.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Cherry Pie Filling",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 3.33,
+        "Image": "Pics\\Baking\\cherryfilling.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Butterscotch Pie Pudding Mix",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 9.99,
+        "Image": "Pics\\Baking\\butterscotchpuddingmix.webp",
+        "Quantity": 15
+      },
+      {
+        "Name": "Oval Shape Pie Pan",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 17.99,
+        "Image": "Pics\\Baking\\oval.jpg",
+        "Quantity": 5
+      },
+      {
+        "Name": "Circle Shape Pie Pan",
+        "Category": "Baking",
+		"Subcategory":".",
+        "price": 17.99,
+        "Image": "Pics\\Baking\\circle.jpg",
+        "Quantity": 8
+      },
+      {
+        "Name": "Canned Goods",
+        "Category": "Pantry",
+        "Subcategory": "cannedgoods",
+        "price": 4,
+        "Image": "Pics\\Pantry\\cangoods.webp",
+        "Quantity": 15
+      },
+      {
+        "Name": "Canned Vegetable",
+        "Category": "Pantry",
+        "Subcategory": "cannedvegetable",
+        "price": 3,
+        "Image": "Pics\\Pantry\\canveg.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Ketchup",
+        "Category": "Pantry",
+        "Subcategory": "condiments",
+        "price": 4.99,
+        "Image": "Pics\\Pantry\\ketchup.jpg",
+        "Quantity": 5
+      },
+      {
+        "Name": "Peanut Butter Spread",
+        "Category": "Pantry",
+        "Subcategory": "peanutbutter-spread",
+        "price": 7.55,
+        "Image": "Pics\\Pantry\\pbs.webp",
+        "Quantity": 5
+      },
+      {
+        "Name": "Pizza Pasta",
+        "Category": "Pantry",
+        "Subcategory": "pasta-pizza",
+        "price": 16,
+        "Image": "Pics\\Pantry\\pizzapasta.jpg",
+        "Quantity": 5
+      },
+      {
+        "Name": "Roll back offer - mixed sauce pack",
+        "Category": "Pantry",
+        "Subcategory": "rollbacks",
+        "price": 27,
+        "Image": "Pics\\Pantry\\mix.jpg",
+        "Quantity": 8
+      },
+      {
+        "Name": "Cereal Bowl",
+        "Category": "BreakfastandCereal",
+        "Subcategory": "cerealshop",
+        "price": 10,
+        "Image": "Pics\\BreakfastandCereal\\cereal.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Pancakes / Waffles",
+        "Category": "BreakfastandCereal",
+        "Subcategory": "pancakes-waffles",
+        "price": 3,
+        "Image": "Pics\\BreakfastandCereal\\paw.jpg",
+        "Quantity": 15
+      },
+      {
+        "Name": "Bread Rolls",
+        "Category": "BreakfastandCereal",
+        "Subcategory": "breakfastbreads",
+        "price": 4.99,
+        "Image": "Pics\\BreakfastandCereal\\breadrolls.webp",
+        "Quantity": 5
+      },
+      {
+        "Name": "Oatmeal and Grits",
+        "Category": "BreakfastandCereal",
+        "Subcategory": "oatmeal-grits",
+        "price": 16.45,
+        "Image": "Pics\\BreakfastandCereal\\omg.jpg",
+        "Quantity": 5
+      },
+      {
+        "Name": "Roll back offer - Toastbread",
+        "Category": "BreakfastandCereal",
+        "Subcategory": "rollbacks",
+        "price": 7,
+        "Image": "Pics\\BreakfastandCereal\\toastbread.jpg",
+        "Quantity": 8
+      }
+    ]
+  }
+}
